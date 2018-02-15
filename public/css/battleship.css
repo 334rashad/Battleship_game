@@ -1,0 +1,78 @@
+body {
+	background-color: black;
+}
+
+#board {
+	position: relative;
+	width: 1024px;
+	height: 925px;
+	margin: auto;
+	background: url("../img/board.jpg") no-repeat;
+	background-color: grey;
+}
+
+#messageForUser {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	color: rgb(51, 204, 51);
+}
+
+.hit {
+	background: url("../img/ship.png") no-repeat center center;
+}
+
+.miss {
+	background: url("../img/miss.png") no-repeat center center;
+}
+
+table {
+	border-spacing: 0px;
+	position: absolute;
+	left: 172px;
+	top: 34px;
+	margin: 10px auto;
+}
+caption {
+  font-size: 1.6em;
+  font-weight: 400;
+  padding: 10px 0;
+}
+
+tr {
+  /*background: #f4f7f8;*/
+  border-bottom: 1px solid #FFF;
+  margin-bottom: 5px;
+}
+
+td {
+	width: 94px;
+	height: 96px;
+	border: 1px solid #FFF;
+}
+
+td {
+  text-align: left;
+  padding: 20px;
+  font-weight: 300;
+}
+
+form {
+	position: absolute;
+	bottom: 0px;
+	left: 35%;
+	padding: 15px;
+	background-color: tomato;
+}
+
+form input {
+	background-color: red;
+	/*border: black;*/
+	border-color: rgb(51, 204, 51);
+	font-size: 1em;
+	color: white;
+}
+
+#fireButton {
+	background-color: red;
+}
